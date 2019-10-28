@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+body {
+    background-image: linear-gradient( to right, red, green, yellow, blue );
+
+}
+
+header {
+    height: 6vh;
+    padding: 8px;
+    background-color: black;
+    font-size: 1.5em;
+    
+
+}
+
+.menu {
+    display: flex;
+
+}
+
+.itemlist {
+    display: flex;
+    list-style: none;
+    
+
+
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+.item {
+    color: white;
+    margin: 10px;
+
+}
+
+.logo {
+
+}
+
+#main {
+
+}
+
+.home {
+
+}
+
+.title-principal {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+
+}
+
+.box-img-home {
+    text-align: center;
+
+}
+
+.img-festa {
+    max-width: 58vw;
+}
+.about {
+    justify-content: center;
+    
+}
+.img {
+    width: 350px;
+    border-radius: 52px;
+}
+
+.box1 {
+    margin: 20px;
+
+}
+.box-imagens {
+    display: flex;
+    justify-content: center;
+    margin: 76px;
+}
+
+.box-text-about {
+    background-color: black;
+    width: 76vw;
+    color: yellow;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.text-about {
+    font-size: 1.1rem;
+    
+
+}
+
+.service {
+
+}
+.box-services  {
+    display: flex;
+}
+.img-pedrinalan {
+    width: 40vw;
+    border-radius: 66px;
+}
+.box-service {
+    background-color: black;
+}
+.text-service{
+    color: yellow;
+    font-weight: 800;
+    width: 40vw;
+    text-align: center;
+}
+
+.box-img-mic {
+    margin: 50px;
+}
