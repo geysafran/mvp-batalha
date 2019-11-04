@@ -1,31 +1,63 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Nunito', sans-serif;
 
 
+}
+html{
+    scroll-behavior: smooth;
 }
 
 body {
-    background-image: linear-gradient( to right, red, green, yellow, blue );
+    background-image: linear-gradient( to top, rgb(245, 198, 122), rgb(246, 198, 75), rgb(246, 180, 25), rgb(251, 186, 5) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+#main {
+    width: 80%;
+    background-color: white;
 }
 
 header {
-    height: 6vh;
-    padding: 8px;
-    background-color: black;
+    height: 12vh;
+    border-radius: 19vw;
+    background-color: rgba(255, 212, 134, 0.21);
     font-size: 1.5em;
     
 
 }
 
+@media only screen and (min-width: 600px) {
+
+    
+.img-logo {
+    width: 6vw;
+    margin: 0;
+
+}
+li {
+    
+    font-weight: 800;
+    padding: 30px;
+}
+
+li:hover {
+    
+    font-size: 1rem;
+    
+}
+
 .menu {
+    
     display: flex;
 
 }
 
 .itemlist {
+    
     display: flex;
     list-style: none;
     
@@ -34,23 +66,16 @@ header {
 }
 a {
     text-decoration: none;
-    padding: 10px;
+
 }
 .item {
-    color: white;
+    color: #ff7d0d;;
     margin: 10px;
+    padding: 15px;
 
 }
 
-.logo {
-
-}
-
-#main {
-
-}
-
-.home {
+#home {
 
 }
 
@@ -69,13 +94,13 @@ a {
 .img-festa {
     max-width: 58vw;
 }
-.about {
+#about {
     justify-content: center;
     
 }
 .img {
-    width: 350px;
-    border-radius: 52px;
+    width: 20vw;
+    border-radius: 20%;
 }
 
 .box1 {
@@ -90,20 +115,29 @@ a {
 
 .box-text-about {
     background-color: black;
-    width: 76vw;
-    color: yellow;
+    width: 79vw;
+    color: #ff7d0d;;
     text-align: center;
     margin: 50px auto;
 
 }
 
 .text-about {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     
 
 }
+.foto {
+    width: 4vw;
 
+}
+.itens-rap {
+    display: flex;
+    justify-content: center;
+
+}
 .box-services  {
+    margin: 2vw;
     display: flex;
 }
 .img-pedrinalan {
@@ -114,19 +148,22 @@ a {
     align-self: center;
    
 }
+.box-servicos {
+    display: flex;
+}
 .text-service{
     background-color: black;
     font-size: 1.2em;
-    color: yellow;
+    color: #ff7d0d;;
     font-weight: 800;
-    width: 49vw;
+    width: 30vw;
     text-align: center;
 }
 
 .box-img-mic {
     margin: 50px;
 }
-.service {
+#service {
     width: 100%;
     flex-wrap: wrap;
     display: flex;
@@ -139,16 +176,15 @@ a {
 }
 .oficinas {
     background-color: black;
-    color: yellow;
+    color: #ff7d0d;;
     text-align: center;
     width: 32vw;
-    margin-left: 10vw;
+    margin-right: 10vw;
 
 }
-
 .cineclubes {
     background-color: black;
-    color: yellow;
+    color: #ff7d0d;;
     text-align: center;
     width: 32vw;
    
@@ -158,4 +194,64 @@ a {
 .ibage {
     width: 30vw;
     height: 30vh;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    height: 900px;
+    color: #ff7d0d;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-contato {
+    background-color: black;
+    height: 8vh;
+    width: 100%;
+    margin: 1vw;
+}
+.gmail {
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+}
+.foto-mudin {
+    width: 82%;
+    text-align: center;
+}
+.contato {
+    font-weight: 900;
+ 
+    color: #ff7d0d;;
+    font-size: 2.6em;
+    text-align: center;
+}
+.rodape {
+    height: 500px;
+}
+.text-rodape {
+    font-size: 1.2em;
+    background-color: black;
+    width: 65vw;
+    text-align: center;
+
+}
+.midias {
+    
+}
+.midiaslist {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.itemidias {
+    width: 3vw;
+}
+.itemidias1 {
+    width: 2.6vw;
 }
